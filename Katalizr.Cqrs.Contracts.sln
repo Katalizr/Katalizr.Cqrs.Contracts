@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.26124.0
+MinimumVisualStudioVersion = 15.0.26124.0
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "00. Common", "00. Common", "{A19DB585-2E14-4DE9-9FD1-D3A85CD8FCCA}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "01. Solution", "01. Solution", "{1AF2CD74-DC1A-43AD-BE32-97DD2F4BA9CE}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "01. Git", "01. Git", "{35A32337-4B3E-4DF1-8F53-C0DBC15D5D7A}"
+ProjectSection(SolutionItems) = preProject
+	.gitattributes = .gitattributes
+	.gitignore = .gitignore
+EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "02. Coding Style", "02. Coding Style", "{18B5B950-F623-4415-8D25-42EAE3AE74D2}"
+ProjectSection(SolutionItems) = preProject
+	.editorconfig = .editorconfig
+EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|Any CPU = Release|Any CPU
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{35A32337-4B3E-4DF1-8F53-C0DBC15D5D7A} = {A19DB585-2E14-4DE9-9FD1-D3A85CD8FCCA}
+		{18B5B950-F623-4415-8D25-42EAE3AE74D2} = {A19DB585-2E14-4DE9-9FD1-D3A85CD8FCCA}
+	EndGlobalSection
+EndGlobal
