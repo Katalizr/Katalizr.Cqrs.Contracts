@@ -20,6 +20,13 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "02. Coding Style", "02. Cod
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Katalizr.Cqrs.Contracts", "Katalizr.Cqrs.Contracts\Katalizr.Cqrs.Contracts.csproj", "{24C2C6D4-E921-4F6F-A504-8B602DCD9CBB}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "03. GitHub", "03. GitHub", "{47B14AE7-0DA1-499B-9B9C-2824DCB7B1B9}"
+ProjectSection(SolutionItems) = preProject
+	CONTRIBUTING.md = CONTRIBUTING.md
+	LICENSE = LICENSE
+	README.md = README.md
+EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -37,6 +44,7 @@ Global
 		{18B5B950-F623-4415-8D25-42EAE3AE74D2} = {A19DB585-2E14-4DE9-9FD1-D3A85CD8FCCA}
 		{1C59B06A-0A83-4996-86D9-44D7FD0ACA8D} = {1AF2CD74-DC1A-43AD-BE32-97DD2F4BA9CE}
 		{24C2C6D4-E921-4F6F-A504-8B602DCD9CBB} = {1AF2CD74-DC1A-43AD-BE32-97DD2F4BA9CE}
+		{47B14AE7-0DA1-499B-9B9C-2824DCB7B1B9} = {A19DB585-2E14-4DE9-9FD1-D3A85CD8FCCA}
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
 		{24C2C6D4-E921-4F6F-A504-8B602DCD9CBB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
